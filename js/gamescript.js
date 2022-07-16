@@ -46,7 +46,7 @@ function playRound (playerSelection, computerSelection) {
 }
 
 function game() {
-    userScore = 0, computerScore = 0;
+    userScore = 0, computerScore = 0; //firstly reset the scores if this function is called again
     for (let i = 0; i < 5; i++) { //forloop that repeats the code 5 times
         let playerSelection = prompt("Enter in rock, paper, or scissors"); //allowing the user to enter their selection
         let computerSelection = computerPlay(); //computer selection using the computerPlay() function
